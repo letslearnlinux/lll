@@ -1,0 +1,45 @@
+site_name: Let's learn Linux
+theme:
+  name: material
+  language: 'en'
+  palette:
+    primary: 'green'
+    accent: 'green'
+  feature:
+    tabs: true
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+markdown_extensions:
+  - admonition
+  - footnotes
+  - meta
+    #- smarty
+  - sane_lists
+  - toc:
+      permalink: True
+  - codehilite:
+      linenums: True
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tilde
+    #- pymdownx.betterem:
+    #  smart_enable: all
+  - pymdownx.highlight:
+      linenums: True
+      guess_lang: True
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: True
+extra_css:
+    - css/extra.css
+    - css/colors.css
+    - css/popup.css
+extra_javascript:
+    - js/popup.js
+
